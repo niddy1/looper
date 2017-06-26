@@ -149,7 +149,7 @@ SocialShareKit.init();
           $url =  "{$_SERVER['REQUEST_URI']}";
           $escaped_url = htmlspecialchars( $url, ENT_QUOTES, 'UTF-8' );
           //echo($escaped_url);
-          if($escaped_url == "/" || $escaped_url == "/category/five-questions/" || $escaped_url == "/category/splash-decant/" || $escaped_url == "/category/one-minute-sommelier/" || $escaped_url == "/category/the-reorder/")
+          if($escaped_url == "/" || $escaped_url == "/page/2/" || $escaped_url == "/page/3/"|| $escaped_url == "/page/4/"|| $escaped_url == "/page/5/"|| $escaped_url == "/category/five-questions/" || $escaped_url == "/category/splash-decant/" || $escaped_url == "/category/one-minute-sommelier/" || $escaped_url == "/category/the-reorder/")
           {
                    echo '
                    <div class="nav-arrow">
