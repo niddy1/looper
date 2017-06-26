@@ -73,11 +73,12 @@ Template Name: Add2
                 });
             });
         </script>
+        
         <script type="text/javascript">
             var feed = new Instafeed({
                 get: "user"
                 , userId: '331511947'
-                , accessToken: '331511947.44a5744.8442d5b882654e60b8d1e6c5bd8c20f8'
+                , accessToken: '331511947.3a81a9f.064053ebe10a44a99769e16f71bfcadb'
                 , limit: '4'
                 , target: 'instafeed'
                 , resolution: 'low_resolution'

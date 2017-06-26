@@ -994,8 +994,15 @@ button {
 }
 
 .showinsta img{
-    height:150px;
-    width:inherit;
+    height:240px;
+    width:25%;
+}
+
+@media(max-width: 650px){
+    .showinsta img{
+        height:170px;
+        width:50%;
+    }
 }
 /* Gray */
 
