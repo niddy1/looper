@@ -59,10 +59,11 @@ get_header(); ?>
 			endwhile;
 
 			// Previous/next page navigation.
+
+			
 			the_posts_pagination( array(
-				'prev_text'          => __( 'Previous page', 'twentysixteen' ),
-				'next_text'          => __( 'Next page', 'twentysixteen' ),
-				'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'twentysixteen' ) . ' </span>',
+				'prev_text'          => __( '<span aria-hidden="true" pag-icon="&#xe045;" style="font-size: 18px;" class="pag-icon"></span>', 'twentysixteen' ),
+				'next_text'          => __( '<span aria-hidden="true" pag-icon="&#xe046;" style="font-size: 18px;" class="pag-icon"></span>', 'twentysixteen' ),
 			) );
 
 		// If no content, include the "No posts found" template.
