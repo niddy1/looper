@@ -59,10 +59,12 @@ get_header(); ?>
 			endwhile;
 
 			// Previous/next page navigation.
+			echo '<div class="navigation"><p>';
 
 			posts_nav_link('&#8734;','<span aria-hidden="true" pag-icon="&#xe045;" style="size: 36px;" class="pag-icon"></span>','<span aria-hidden="true" pag-icon="&#xe046;" style="size: 36px;" class="pag-icon"></span>');
+			echo '</div></p>'
 
-			
+
 
 		// If no content, include the "No posts found" template.
 		else :
