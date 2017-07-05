@@ -83,7 +83,7 @@ Template Name: Index
             
 ?>
             
-
+            <div class="navigation"><p><?php posts_nav_link('&#8734;','<span aria-hidden="true" pag-icon="&#xe045;" style="size: 36px;" class="pag-icon"></span>','<span aria-hidden="true" pag-icon="&#xe046;" style="size: 36px;" class="pag-icon"></span>'); ?></p></div>
 <?php
 		// If no content, include the "No posts found" template.
 		else :
