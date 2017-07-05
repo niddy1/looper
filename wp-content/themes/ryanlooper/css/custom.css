@@ -581,6 +581,12 @@ h1 {
     font-size: 60pt;
 }
 
+h3 {
+    font-family: "Edmondsans Bold";
+    font-size: 20pt;
+    color: #C8D737;
+}
+
 .green-borders {
     border-left: 0px solid #C8D737;
     border-right: 0px solid #C8D737;
