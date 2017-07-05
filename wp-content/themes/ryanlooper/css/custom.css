@@ -996,12 +996,30 @@ button {
 .showinsta img{
     height:240px;
     width:25%;
+    max-width: 240px;
+}
+
+@media(max-width: 1000px){
+    .showinsta img{
+        width:24%;
+        max-width: 190px;
+        height: 190px;
+    }
+}
+
+@media(max-width: 650px){
+    .showinsta img{
+        width:25%;
+        max-width: 170px;
+        height: 170px;
+    }
 }
 
 @media(max-width: 650px){
     .showinsta img{
         height:170px;
         width:50%;
+        max-width: auto;
     }
 }
 /* Gray */
