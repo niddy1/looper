@@ -149,14 +149,14 @@ SocialShareKit.init();
           $url =  "{$_SERVER['REQUEST_URI']}";
           $escaped_url = htmlspecialchars( $url, ENT_QUOTES, 'UTF-8' );
           //echo($escaped_url);
-          if($escaped_url == "/add" || $escaped_url == "/re" )
-          {
+          if($escaped_url == "/add" || $escaped_url == "/re" ){
+            console.log( 'escapedurl ' + $escaped_url );
                 echo '';
-              } else {
-                   echo '
-                   <div class="nav-arrow">
-                        <a href="javascript:show_all()" id="show_all" class="show_all"><img src="'. get_template_directory_uri().'/img/arrow.svg" id="show_all" class="show_all"></a>
-                    </div>';  
+            } else {
+                echo '
+                <div class="nav-arrow">
+                    <a href="javascript:show_all()" id="show_all" class="show_all"><img src="'. get_template_directory_uri().'/img/arrow.svg" id="show_all" class="show_all"></a>
+                </div>';  
           }
     ?>
     
