@@ -148,9 +148,8 @@ SocialShareKit.init();
     <?php
           $url =  "{$_SERVER['REQUEST_URI']}";
           $escaped_url = htmlspecialchars( $url, ENT_QUOTES, 'UTF-8' );
-          //echo($escaped_url);
+          echo($escaped_url);
           if($escaped_url == "/add" || $escaped_url == "/re" ){
-            console.log( 'escapedurl ' + $escaped_url );
                 echo '';
             } else {
                 echo '
