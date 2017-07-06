@@ -149,15 +149,14 @@ SocialShareKit.init();
           $url =  "{$_SERVER['REQUEST_URI']}";
           $escaped_url = htmlspecialchars( $url, ENT_QUOTES, 'UTF-8' );
           //echo($escaped_url);
-          // if($escaped_url == "/" || $escaped_url == "/page/2/" || $escaped_url == "/page/3/"|| $escaped_url == "/page/4/"|| $escaped_url == "/page/5/"||  $escaped_url == "/page/6/"||  $escaped_url == "/page/7/"||  $escaped_url == "/page/8/"||  $escaped_url == "/page/9/"||  $escaped_url == "/page/10/"||  $escaped_url == "/page/11/"|| $escaped_url == "/category/five-questions/" || $escaped_url == "/category/splash-decant/" || $escaped_url == "/category/one-minute-sommelier/" || $escaped_url == "/category/the-reorder/")
-          if($escaped_url != "/add" || $escaped_url != "/re" )
+          if($escaped_url == "/add" || $escaped_url == "/re" )
           {
+                echo '';
+              } else {
                    echo '
                    <div class="nav-arrow">
                         <a href="javascript:show_all()" id="show_all" class="show_all"><img src="'. get_template_directory_uri().'/img/arrow.svg" id="show_all" class="show_all"></a>
-                    </div>';    
-              } else {
-                   echo '';
+                    </div>';  
           }
     ?>
     
